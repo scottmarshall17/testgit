@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Raleway; 
+	src: url('Raleway-Light.otf');
+}
+
 body {
 	background-color: black;
 	margin: 0 0 0 0;
@@ -18,12 +23,40 @@ body {
 }
 
 .divider {
-	width: 1%;
+	width: .8%;
 	height: 100%;
-	background-color: #AAAAAA;
+	background-color: #f1f2f2;
 	float: left;
 }
 
 .block:hover {
+	opacity: 1;
+}
+
+.underline {
+	width: 100%;
+	height: 15px;
+	clear: both;
+	background-color: #f1f2f2;
+}
+
+p {
+	color: #f1f2f2;
+	font-size: 3em;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+
+body > p {
+	color: #f1f2f2;
+	font-size: 7em;
+	text-align: center;
+	font-family: Raleway;
+	margin-top: 300px;
+	opacity: .75;
+	transition: all .5s ease;
+}
+
+body > p:hover {
 	opacity: 1;
 }
