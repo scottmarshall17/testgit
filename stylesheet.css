@@ -35,7 +35,7 @@ body {
 
 .underline {
 	width: 100%;
-	height: 15px;
+	height: 100px; 		/* 15px makes this equal to the other borders */
 	clear: both;
 	background-color: #f1f2f2;
 }
@@ -47,16 +47,28 @@ p {
 	font-family: Raleway, sans-serif;
 }
 
-body > p {
-	color: #f1f2f2;
+#logo {
+	position: absolute;
+	height: 1000px;
+	width: 1000px;
+	margin-top: -70px;
+	margin-left: 23.6%;
+	background-color: #f1f2f2;
+	border-radius: 100%;
+	z-index: 999;
+}
+
+.main {
+	color: black;
 	font-size: 7em;
 	text-align: center;
 	font-family: Raleway;
-	margin-top: 300px;
+	margin-top: 400px;
 	opacity: .75;
 	transition: all .5s ease;
 }
 
-body > p:hover {
+.main:hover {
 	opacity: 1;
 }
+
