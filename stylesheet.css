@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: black;
+	background-color: #32313B;
 	margin: 0 0 0 0;
 }
 
@@ -16,7 +16,7 @@ body {
 .block {
 	width: 24%;
 	height: 100%;
-	background-color: #555555;
+	background-color: #39B1C6;
 	float: left;
 	opacity: .5;
 	transition: all 0.3s ease;
@@ -35,7 +35,7 @@ body {
 
 .underline {
 	width: 100%;
-	height: 100px; 		/* 15px makes this equal to the other borders */
+	height: 300px; 		/* 15px makes this equal to the other borders */
 	clear: both;
 	background-color: #f1f2f2;
 }
@@ -51,15 +51,15 @@ p {
 	position: absolute;
 	height: 1000px;
 	width: 1000px;
-	margin-top: -70px;
+	margin-top: -270px;
 	margin-left: 23.6%;
-	background-color: #f1f2f2;
+	background-color: #25242C;
 	border-radius: 100%;
 	z-index: 999;
 }
 
 .main {
-	color: black;
+	color: #EC3F8C;
 	font-size: 7em;
 	text-align: center;
 	font-family: Raleway;
