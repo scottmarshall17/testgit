@@ -18,7 +18,7 @@ body {
 	height: 100%;
 	background-color: #39B1C6;
 	float: left;
-	opacity: .5;
+	opacity: 1;
 	transition: all 0.3s ease;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .block:hover {
-	opacity: 1;
+	opacity: .5;
 }
 
 .underline {
@@ -64,11 +64,11 @@ p {
 	text-align: center;
 	font-family: Raleway;
 	margin-top: 400px;
-	opacity: .75;
+	opacity: 1;
 	transition: all .5s ease;
 }
 
 .main:hover {
-	opacity: 1;
+	opacity: .75;
 }
 
